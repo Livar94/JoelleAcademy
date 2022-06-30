@@ -1,7 +1,72 @@
 import React from 'react'
+import styled from 'styled-components'
+import Logo from '../../assets/images/logojo.png'
 
 export default function Navbar() {
   return (
-    <div>Navbar</div>
+    <NavbarContainer>
+      <NavbarContent className="container">
+{/*         <NavbarLinks>
+          <li>
+            <NavbarLink href="#services">lorem</NavbarLink>
+          </li>
+        </NavbarLinks> */}
+
+        <LogoContainer>
+          <LogoContent src={Logo} />
+        </LogoContainer>
+
+        <HeroContent>
+          <h1>احصل على وظيفة احلامك</h1>
+          <h2>ثقة 300.000 متابع</h2>
+        </HeroContent>
+
+        <div className=""></div>
+        
+      </NavbarContent>
+    </NavbarContainer>
   )
 }
+
+const NavbarContainer = styled.div`
+
+`
+
+const NavbarContent = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+`
+
+const NavbarLinks = styled.ul`
+
+`
+
+const NavbarLink = styled.a`
+
+`
+
+const LogoContainer = styled.a`
+display: block;
+  overflow: hidden;
+ /*  height: 100px; */
+  width: 140px;
+
+`
+
+const LogoContent = styled.img`
+  max-width: 100%;
+max-height: 100%;
+  object-fit: cover;
+
+`
+const HeroContent = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+`

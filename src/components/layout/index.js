@@ -12,4 +12,5 @@ export default function Layout({ children }) {
 }
 
 const LayoutContainer = styled.div`
+
 `
