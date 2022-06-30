@@ -65,6 +65,10 @@ const Body = styled.div`
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
 
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+
 `;
 
 const ProfessionalCV = styled.div`
