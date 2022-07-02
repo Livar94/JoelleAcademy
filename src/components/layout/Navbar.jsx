@@ -48,14 +48,14 @@ const NavbarLink = styled.a`
 const LogoContainer = styled.a`
 display: block;
   overflow: hidden;
- /*  height: 100px; */
+  height: 300px;
   width: 140px;
 
 `
 
 const LogoContent = styled.img`
   max-width: 100%;
-max-height: 100%;
+  max-height: 100%;
   object-fit: cover;
 
 `
