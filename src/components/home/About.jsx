@@ -62,6 +62,8 @@ const Header = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 5em;
+  flex-direction: column;
+  text-align: center;
 
   > p {
     color: white;

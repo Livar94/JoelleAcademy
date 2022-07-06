@@ -6,30 +6,23 @@ import WayImage from '../.././assets/images/Service6.png'
 export default function TheWay() {
   return (
 
-        <TheWayComponent>
-
-
-    <BodyWay>
-                <img src={WayImage} alt='' />
-                <img src={WayImage} alt='' />
-                <img src={WayImage} alt='' />
-                <img src={WayImage} alt='' />
-        </BodyWay>
-
-
+        <TheWayComponent className='container'>
+            <BodyWay>
+                    <img src={WayImage} alt='' />
+                    <img src={WayImage} alt='' />
+                    <img src={WayImage} alt='' />
+                    <img src={WayImage} alt='' />
+            </BodyWay>
             <WayText>
-            <h1>الطريقة</h1>
-
-        </WayText>
-        <WayContainer>
-
-
-
-        
-
-
-
-    </WayContainer>
+                <h1>الطريقة</h1>
+                <p>التواصل معنا على الواتساب لتحديد موعد فريق العمل جاهز لاستقبال رسائلكم ومساعدتكم في اختيار الخدمات</p>
+                <p> الاجتماع مع أحد خبرائنا عبر اتصال زووم خلال الاجتماع يتم مناقشة الخبرة والاهداف المهنية المستقبلية لكتابة السيرة الذاتية </p>
+                <p>الحصول على السيرة الذاتية خلال 3 أيام عمل عند انتهاء الاجتماع يبدأ العمل على سيرتك الذاتية فوراً مع بحث شامل على ما يطلبه سوق العمل في مجالك</p>
+                <p>اضافة ملاحظاتك على السيرة الذاتية اعلامنا بأي اضافات أو تصليح أمر طبيعي قبل المنتج الأخير، نضيف الملاحظات بأسرع وقت ممكن</p>
+                <p>الحصول على سيرة ذاتية محترفة لتقديمها على وظائف مبروك أصبح لديك سيرة ذاتية تقدّمها على فرص العمل بكلّ ثقة</p>
+            </WayText>
+            <WayContainer>
+            </WayContainer>
         </TheWayComponent>
     
         
@@ -38,10 +31,16 @@ export default function TheWay() {
 
 
 const TheWayComponent = styled.div`
-margin-top: 30%;
+
+margin-top: 60vh;
 display: grid;
 grid-template-columns: 1fr 1fr;
 justify-items: center;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+padding: 3em;
+
+/* margin-left: 5em;
+margin-right: 5em; */
 
 @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -147,7 +146,26 @@ const WayImagePic1 = styled.img`
 `; */
 
 const WayText = styled.div`
-    background-color: red;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    > p {
+        padding-right: 1em;
+        position: relative;
+        ::after {
+            margin-left: 1em;
+           content: "";
+        height: 7.5px;
+        width: 7.5px;
+        position: absolute;
+        right: 0;
+        top: 7.5px;
+        border-radius: 50%;
+        background-color: black;
+        }
+        
+
+    }
 
 `;
 /*  

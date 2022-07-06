@@ -105,7 +105,34 @@ const LinkedInProfile = styled.div`
 const ServicesImages = styled.img`
   max-height: 150px;
   max-width: 150px;
-  animation: bounce 1s infinite;
+  animation:fa-beat 3s ease-in-out infinite;
+
+@keyframes fa-beat {
+  0% {
+    transform:scale(1);
+  }
+  5% {
+    transform:scale(1.25);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1);
+  }
+  35% {
+    transform:scale(1.25);
+  }
+  50% {
+    transform:scale(1);
+  }
+  55% {
+    transform:scale(1.25);
+  }
+  70% {
+    transform:scale(1);
+  }
+}
 
 
 
