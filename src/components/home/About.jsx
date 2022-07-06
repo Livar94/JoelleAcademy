@@ -30,7 +30,6 @@ export default function About() {
 
 const Aboutcomponent = styled.div`
   
-
   @keyframes bounce {
         0%, 100% {
             transform: translateY(-25%);
