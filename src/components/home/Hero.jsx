@@ -52,6 +52,11 @@ padding-bottom: 20em;
   background-repeat: no-repeat;
   max-width: 100vw;
   overflow: hidden;
+
+  @media only screen and (max-width: 768px) {
+    background-size: contain;
+    background-position: bottom;
+    }
 `
 /* 
 const HeroContent = styled.div`

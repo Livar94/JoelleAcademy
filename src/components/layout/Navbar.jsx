@@ -52,6 +52,13 @@ const NavbarContainer = styled.div`
 const NavbarContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+    }
 `
 
 const NavbarLinks = styled.ul`
