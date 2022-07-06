@@ -15,7 +15,7 @@ export default function About() {
           <h2>من نحن؟</h2>
         </Body>
         <Header>
-          <a href="">Joelle Academy</a> 
+          <a href="https://www.instagram.com/joelleacademy/">Joelle Academy</a> 
           <p>فريق من المحترفين بقيادة كاتبة السيرة الذاتية المحترفة جويل يمّين <br /> التي انشهرت على التيك توك بعد أن شاركت أسرار السيرة الذاتية ومقابلة العمل وصوّرت فيديوهات قصيرة على تيك توك عن النصائح والاخطاء الشائعة التي نالت اعجاب الملايين وأودى بخلق </p>
           
         
@@ -30,6 +30,18 @@ export default function About() {
 }
 
 const Aboutcomponent = styled.div`
+  
+
+  @keyframes bounce {
+        0%, 100% {
+            transform: translateY(-25%);
+            animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+        }
+        50% {
+            transform: translateY(0);
+            animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+        }
+        }
 
 
 `;
@@ -37,9 +49,10 @@ const Aboutcomponent = styled.div`
 const Video = styled.video`
     z-index: -1;
     position: absolute;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     object-fit: cover;
+    object-position: top;
 
 `;
 

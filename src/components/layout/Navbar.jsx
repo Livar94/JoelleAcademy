@@ -1,6 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from '../../assets/images/logojo.png'
+import Typewriter from 'typewriter-effect';
+
 
 export default function Navbar() {
   return (
@@ -17,8 +19,23 @@ export default function Navbar() {
         </LogoContainer>
 
         <HeroContent>
-          <h1>احصل على وظيفة احلامك</h1>
-          <h2>ثقة 300.000 متابع</h2>
+                <h1><Typewriter
+                  options={{
+                    strings: ['احصل على وظيفة احلامك'],
+                    autoStart: true,
+                    loop: true
+                  }}
+                /></h1>
+                          <h2>ثقة 300.000 متابع</h2>
+
+                {/* <h2><Typewriter
+                  options={{
+                    strings: ['ثقة 300.000 متابع'],
+                    autoStart: true,
+                    loop: true
+                  }}
+                /></h2> */}
+
         </HeroContent>
 
         <div className=""></div>
