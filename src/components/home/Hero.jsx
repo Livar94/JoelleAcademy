@@ -50,6 +50,8 @@ padding-bottom: 20em;
   background-image: url(${Banner});
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: 100vw;
+  overflow: hidden;
 `
 /* 
 const HeroContent = styled.div`
