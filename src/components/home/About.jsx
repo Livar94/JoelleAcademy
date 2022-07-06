@@ -14,10 +14,9 @@ export default function About() {
         <Body>
           <h2>من نحن؟</h2>
         </Body>
-        <Header>
-          <a href="https://www.instagram.com/joelleacademy/">Joelle Academy</a> 
+        <Header> 
           <p>فريق من المحترفين بقيادة كاتبة السيرة الذاتية المحترفة جويل يمّين <br /> التي انشهرت على التيك توك بعد أن شاركت أسرار السيرة الذاتية ومقابلة العمل وصوّرت فيديوهات قصيرة على تيك توك عن النصائح والاخطاء الشائعة التي نالت اعجاب الملايين وأودى بخلق </p>
-          
+          <a href="https://www.instagram.com/joelleacademy/">Joelle Academy</a>
         
         </Header>
         
@@ -68,7 +67,7 @@ const Header = styled.div`
   > p {
     color: white;
     font-weight: bold;
-    font-size: ;
+    font-size: x-large;
   }
 
   > a {

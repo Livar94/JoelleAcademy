@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import CoverLetterImg from '../.././assets/images/COVER-LETTER.png'
+import CvWriting from '../.././assets/images/CV-WRITING.png'
+import LinkedIn from '../.././assets/images/LINKEDIN.png'
 
 export default function Services() {
   return (
@@ -10,6 +13,7 @@ export default function Services() {
         </Title>
         <Body>
           <ProfessionalCV>
+          <ServicesImages src={CvWriting} alt='' className='fa-solid fa-heart fa-beat' />
             <h2>ATS Friendly Proffessional CV سيرة ذاتية محترفة</h2>
             <p> .كتابة سيرة ذاتية باستخدام المعايير العالميّة مع محتوى محترف لاظهار قيمتك المضافة لمهاراتك</p>
             <p> استخدام نموذج صالح للقراءة والمسح من قبل برنامج فلترة الطلبات</p>
@@ -18,6 +22,8 @@ export default function Services() {
           </ProfessionalCV>
 
           <CoverLetter>
+            <ServicesImages src={CoverLetterImg} alt='' />
+
             <h2>Cover Letter</h2>
             <p>؟Cover Letter هل تهرب من اعلانات الوظائف التي تتطلّب</p>
             <p>خاص بخبرتك يكفي تغيير بعض الكلمات ليتوافق مع كل وظيفة تّم عليها Cover Letter نكتب لك</p>
@@ -26,6 +32,7 @@ export default function Services() {
           </CoverLetter>
 
           <LinkedInProfile>
+          <ServicesImages src={LinkedIn} alt='' />
             <h2>LinkedIn Profile Optimization</h2>
             <p>،(Headline) نحوّل حسابك في اللنكدن الى حساب محترف من صورة الغلاف، الصورة الشخصية، العنوان </p>
             <p> ، (About Section) النبذة الذاتية </p>
@@ -93,4 +100,13 @@ const LinkedInProfile = styled.div`
   text-align: center;
   border-radius: 1em;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+`;
+
+const ServicesImages = styled.img`
+  max-height: 150px;
+  max-width: 150px;
+  animation: bounce 1s infinite;
+
+
+
 `;
