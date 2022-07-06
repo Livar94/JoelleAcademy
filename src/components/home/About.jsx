@@ -83,8 +83,10 @@ const Header = styled.div`
 `;
 
 const Body = styled.div`
-   display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding-top : 3em;
+  
   
   > h2 {
     font-size: xx-large;
