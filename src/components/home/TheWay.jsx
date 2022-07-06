@@ -5,21 +5,34 @@ import WayImage from '../.././assets/images/Service6.png'
 
 export default function TheWay() {
   return (
-    <WayContainer>
+
+        <TheWayComponent>
+            <WayText>
+            <h1>الطريقة</h1>
+
+        </WayText>
+        <WayContainer>
+
+
+
         <BodyWay>
-            <BodyWay1>
                 <WayImagePic1 src={WayImage} alt='' />
                 <WayImagePic1 src={WayImage} alt='' />
                 <WayImagePic1 src={WayImage} alt='' />
                 <WayImagePic1 src={WayImage} alt='' />
-            </BodyWay1>
         </BodyWay>
 
 
 
     </WayContainer>
+        </TheWayComponent>
+    
+        
   )
 }
+
+
+const TheWayComponent = styled.div``;
 
 
 const WayContainer = styled.div`
@@ -45,9 +58,7 @@ const BodyWay = styled.div`
 
 `;
 
-const BodyWay1 = styled.div`
-    
-`;
+
 
 
 const WayImagePic1 = styled.img`
@@ -79,9 +90,9 @@ const WayImagePic1 = styled.img`
 
     }
 
+`;
 
-
-    
-
+const WayText = styled.div`
+    background-color: red;
 
 `;
