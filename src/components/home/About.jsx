@@ -5,7 +5,7 @@ import Zaldo from '../.././assets/videos/pexels-jack-sparrow-5977260 (1).mp4'
 
 export default function About() {
   return (
-    <Aboutcomponent>
+    <Aboutcomponent id='about'>
         <Video playsInline autoPlay muted loop>
             <source src={Zaldo} type="video/mp4" />
         </Video>

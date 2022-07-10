@@ -6,7 +6,7 @@ import LinkedIn from '../.././assets/images/LINKEDIN.png'
 
 export default function Services() {
   return (
-    <Servicescomponent>
+    <Servicescomponent id='services'>
       <Header>
         <Title>
           <h1>الخدمات</h1>

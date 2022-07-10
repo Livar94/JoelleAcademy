@@ -6,7 +6,7 @@ import WayImage from '../.././assets/images/Service6.png'
 export default function TheWay() {
   return (
 
-        <TheWayComponent className='container'>
+        <TheWayComponent className='container' id='theway'>
             <BodyWay>
                     <img src={WayImage} alt='' />
                     <img src={WayImage} alt='' />
