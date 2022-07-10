@@ -53,9 +53,10 @@ export default function Services() {
 const Servicescomponent = styled.div`
 display: flex;
 justify-content: center;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+box-shadow: rgba(0, 0, 0, 0.147) 0px 3px 8px;
 margin: 2em;
 padding: 5em 3em;
+padding-top: 4em;
 `;
 
 const Header = styled.div` 
@@ -65,6 +66,8 @@ const Header = styled.div`
 const Title = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 1em;
+  font-size: 1.25rem;
 `;
 
 const Body = styled.div`
@@ -83,7 +86,7 @@ const ProfessionalCV = styled.div`
   cursor: pointer;
   text-align: center;
   border-radius: 1em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 `;
 
 const CoverLetter = styled.div`
@@ -91,7 +94,7 @@ const CoverLetter = styled.div`
   cursor: pointer;
   text-align: center;
   border-radius: 1em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 `;
 
 const LinkedInProfile = styled.div`
@@ -99,7 +102,7 @@ const LinkedInProfile = styled.div`
   cursor: pointer;
   text-align: center;
   border-radius: 1em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
 `;
 
 const ServicesImages = styled.img`

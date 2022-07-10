@@ -72,7 +72,7 @@ const NavbarLink = styled.a`
 const LogoContainer = styled.a`
 display: block;
   overflow: hidden;
-  height: 300px;
+  /* height: 300px; */
   width: 140px;
 
 `
@@ -84,6 +84,7 @@ const LogoContent = styled.img`
 
 `
 const HeroContent = styled.div`
+height: max-content;
 display: flex;
 flex-direction: column;
 align-items: center;

@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from '../layout/Navbar'
-import Banner from '../../assets/images/banner.png'
+import Pattern from '../../assets/images/crissxcross.png'
+import Friends from '../../assets/images/friends.png'
+import Joelle from '../../assets/images/joelle.png'
 
 export default function Hero() {
   return (
@@ -14,6 +16,10 @@ export default function Hero() {
     </Top>
     <HeroContainer>
       <Navbar />
+      <div className="banner">
+        <img id='friends' src={Friends} alt="" />
+        <img id='joelle' src={Joelle} alt="" />
+      </div>
     </HeroContainer>
 {/*     <HeroContainer>
       <Navbar />
@@ -45,18 +51,46 @@ const Top = styled.div`
 `
 
 const HeroContainer = styled.div`
-padding: 2em 0;
-padding-bottom: 20em;
-  background-image: url(${Banner});
-  background-size: cover;
-  background-repeat: no-repeat;
+  padding-top: 1rem;
+  /* padding-bottom: 20em; */
+  background-color: white;
+  background-image: url(${Pattern});
+  
+  background-position: center;
   max-width: 100vw;
   overflow: hidden;
+
+  .banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    #friends {
+      max-width: 700px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    #joelle {
+      max-width: 300px;
+    }
+  }
 
   @media only screen and (max-width: 768px) {
     background-size: contain;
     background-position: bottom;
+    .banner {
+    #friends {
+      max-width: 250px;
     }
+
+    #joelle {
+      max-width: 100px;
+    }
+  }
+  }
+
+
 `
 /* 
 const HeroContent = styled.div`
