@@ -4,14 +4,22 @@ import Navbar from '../layout/Navbar'
 import Pattern from '../../assets/images/crissxcross.png'
 import Friends from '../../assets/images/friends.png'
 import Joelle from '../../assets/images/joelle.png'
+import Ticker from 'react-ticker'
 
 export default function Hero() {
   return (
     <>
     <Top>
       <div className="container">
-      <p >Contact me -</p>
-      <a href='mailto:info@joelleacademy.net'>info@joelleacademy.net</a>
+{/*       <p >Contact me -</p>
+      <a href='mailto:info@joelleacademy.net'>info@joelleacademy.net</a> */}
+          <Ticker mode='chain'>
+              {() => (
+                  <>
+                      <p>hello vdfdff </p>
+                  </>
+              )}
+          </Ticker>
       </div>
     </Top>
     <HeroContainer>
@@ -34,20 +42,30 @@ export default function Hero() {
 
 const Top = styled.div`
   background-color: #111;
-  padding: 0.25em 0;
+  /* padding: 0.25em 0; */
+  width: 100%;
   color: white;
   .container {
-    display: flex;
-    gap: .3em;
+    width: 100%;
   }
-  p {
+/*   .container {
+/*     max-height: 30px; */
+/*     display: flex;
+    gap: .3em; */
+ /*  } */
+
+  .ticker {
+    width: 100%;
+  }
+
+/*   p {
     display: inline-block;
   }
   a {
     display: inline-block;
     color: white;
     font-weight: 500;
-  }
+  } */
 `
 
 const HeroContainer = styled.div`
