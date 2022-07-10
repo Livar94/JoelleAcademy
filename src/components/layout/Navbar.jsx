@@ -2,9 +2,13 @@ import React from 'react'
 import styled from 'styled-components'
 import Logo from '../../assets/images/logojo.png'
 import Typewriter from 'typewriter-effect';
+import { IoIosMenu } from 'react-icons/io';
+import { useSidebar } from '../../context/useSidebar'
 
 
 export default function Navbar() {
+  const { setIsOpen } = useSidebar();
+  
   return (
     <NavbarContainer>
       <NavbarContent className="container">
@@ -16,6 +20,9 @@ export default function Navbar() {
 
         <LogoContainer>
           <LogoContent src={Logo} />
+          <MenuBtn className='menubtn' onClick={() => setIsOpen(prev => true)}>
+            <IoIosMenu />
+          </MenuBtn>
         </LogoContainer>
 
         <HeroContent>
@@ -38,7 +45,11 @@ export default function Navbar() {
 
         </HeroContent>
 
-        <div className=""></div>
+        <div className="desktop">
+          <MenuBtn className='menubtn' onClick={() => setIsOpen(prev => true)}>
+            <IoIosMenu />
+          </MenuBtn>
+        </div>
         
       </NavbarContent>
     </NavbarContainer>
@@ -59,6 +70,16 @@ const NavbarContent = styled.div`
       justify-items: center;
       text-align: center;
     }
+
+    .desktop {
+      display: flex;
+      justify-content: flex-end;
+      @media only screen and (max-width: 768px) {
+        .menubtn {
+          display: none;
+        }
+      }
+    }
 `
 
 const NavbarLinks = styled.ul`
@@ -73,12 +94,24 @@ const LogoContainer = styled.a`
 display: block;
   overflow: hidden;
   /* height: 300px; */
-  width: 140px;
+  
 
+  @media only screen and (min-width: 768px) {
+    .menubtn {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1em;
+  }
 `
 
 const LogoContent = styled.img`
-  max-width: 100%;
+  max-width: 140px;
   max-height: 100%;
   object-fit: cover;
 
@@ -94,4 +127,16 @@ align-items: center;
   h2 {
     font-size: 2rem;
   }
+  @media only screen and (max-width: 768px) {
+    padding: 2em 0;
+  }
+`
+
+const MenuBtn = styled.button`
+  background: transparent;
+  padding: 0;
+  border: 0;
+  font-size: 2.5rem;
+  color: black;
+  cursor: pointer;
 `
