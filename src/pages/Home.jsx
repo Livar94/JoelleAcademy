@@ -4,6 +4,7 @@ import Services from '.././components/home/Services'
 import About from '.././components/home/About'
 import TheWay from '../components/home/TheWay'
 import Prices from './../components/home/Prices';
+import Comments from './../components/home/Comments';
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <About />
       <TheWay />
       <Prices />
-      
+      <Comments />
 
     </div>
   )

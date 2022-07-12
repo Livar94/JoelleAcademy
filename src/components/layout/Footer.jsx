@@ -48,6 +48,7 @@ export default function Footer() {
 const FooterContainer = styled.div`
   padding: 6em 3em;
   background-color: rgb(51,159,208);
+  
 `;
 
 const Header = styled.div``;
@@ -55,6 +56,11 @@ const Header = styled.div``;
 const Body = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+
+  @media only screen and (max-width: 768px) {
+      grid-template-columns: 1fr;
+      
+    }
   
 `;
 

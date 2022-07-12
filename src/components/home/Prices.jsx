@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 export default function Prices() {
   return (
-    <PricesComponent>
+    <PricesComponent className='container'>
         <Header>
             <h1>الأسعار</h1>
             <Body>
@@ -56,6 +56,16 @@ export default function Prices() {
 const PricesComponent = styled.div`
     margin-top: 7rem;
     margin-bottom: 10rem;
+
+    
+
+    /* @media only screen and (max-width: 1263px) {
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
+      text-align: center;
+    } */
     
     
 
