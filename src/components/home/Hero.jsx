@@ -13,13 +13,20 @@ export default function Hero() {
       <div className="container">
 {/*       <p >Contact me -</p>
       <a href='mailto:info@joelleacademy.net'>info@joelleacademy.net</a> */}
-          <Ticker mode='chain'>
+          {/* <Ticker mode='await' >
               {() => (
                   <>
                       <p>hello vdfdff </p>
                   </>
               )}
-          </Ticker>
+          </Ticker> */}
+          <Ticker mode='smooth'>
+        {({ index }) => (
+            <>
+                <p>Phone: 0096181946089 | Business hours: &nbsp;&nbsp;•&nbsp;&nbsp; Monday – Friday: 10am – 7pm </p>
+            </>
+        )}
+    </Ticker>
       </div>
     </Top>
     <HeroContainer>
@@ -58,14 +65,14 @@ const Top = styled.div`
     width: 100%;
   }
 
-/*   p {
+  p {
     display: inline-block;
   }
   a {
     display: inline-block;
     color: white;
     font-weight: 500;
-  } */
+  }
 `
 
 const HeroContainer = styled.div`

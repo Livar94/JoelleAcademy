@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import WayImage from '../.././assets/images/Service6.png'
+import WayImage from '../.././assets/images/Step3.png'
 
 
 export default function TheWay() {
@@ -70,8 +70,9 @@ const BodyWay = styled.div`
    
     > img {
         position: absolute;
-  width: 100%;
-  transition: 0.5s;
+        width: 100%;
+        transition: 0.5s;
+        border-radius: 2em;
  @media only screen and (max-width: 768px) {
         height: 200px;
         width: 250px;
@@ -85,8 +86,8 @@ const BodyWay = styled.div`
         }
 
         img:nth-child(3) {
-  transform: translate(120px, -120px);
-  opacity: 0.8;
+        transform: translate(120px, -120px);
+        opacity: 0.8;
 }
 
 img:nth-child(2) {
