@@ -63,7 +63,7 @@ const Title = styled.div`
   justify-content: center;
   margin-bottom: 1em;
   font-size: 1.25rem;
-  text-shadow: 5px 6px 2px #378ab4;
+  text-shadow: 5px 6px 2px #378ab47d;
 
 `;
 

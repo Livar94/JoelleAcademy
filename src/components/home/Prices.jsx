@@ -1,5 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import Pricesimg1 from '../.././assets/images/Service1.png'
+import Pricesimg2 from '../.././assets/images/Service2.png'
+import Pricesimg3 from '../.././assets/images/Service3.png'
+import Pricesimg4 from '../.././assets/images/Service4.png'
+import Pricesimg5 from '../.././assets/images/Service5.png'
+import Pricesimg6 from '../.././assets/images/Service6.png'
+import Pricesimg7 from '../.././assets/images/Service7.png'
+
 
 export default function Prices() {
   return (
@@ -8,38 +16,51 @@ export default function Prices() {
             <h1>الأسعار</h1>
             <Body>
                 <Div1>
+                    <Pricesimg src={Pricesimg3} alt="" />
                     <h2>كتابة سيرة ذاتية 7 الى 11 سنة خبرة</h2>
                     <p>85$</p>
                     <button>Contuct us</button>
                 </Div1>
                 <Div2>
+                <Pricesimg src={Pricesimg2} alt="" />
+
                     <h2>كتابة سيرة ذاتية 3 الى 7 سنين خبرة</h2>
                     <p>70$</p>
                     <button>Contuct us</button>
                 </Div2>
                 <Div3>
+                <Pricesimg src={Pricesimg1} alt="" />
+
                     <h2>كتابة سيرة ذاتية حديث التخرج الى 3 سنوات خبرة</h2>
                     <p>50$</p>
                     
                     <button>Contuct us</button>
                 </Div3>
                 <Div4>
+                <Pricesimg src={Pricesimg6} alt="" />
+
                     <h2>تحسين حسياب اللينكدن</h2>
                     <h2>LinkedIn Profile Optimization</h2>
                     <p>45$</p>
                     <button>Contuct us</button>
                 </Div4>
                 <Div5>
+                <Pricesimg src={Pricesimg5} alt="" />
+
                     <h2>كتابة سيرة ذاتية 15+ سنة خبرة</h2>
                     <p>120$</p>
                     <button>Contuct us</button>
                 </Div5>
                 <Div6>
+                <Pricesimg src={Pricesimg4} alt="" />
+
                     <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
                     <p>100$</p>
                     <button>Contuct us</button>
                 </Div6>
                 <Div7>
+                <Pricesimg src={Pricesimg7} alt="" />
+
                     <h2>Cover Letter كتابة</h2>
                     <p>30$</p>
                     <button>Contuct us</button>
@@ -56,6 +77,8 @@ export default function Prices() {
 const PricesComponent = styled.div`
     margin-top: 7rem;
     margin-bottom: 10rem;
+    
+
 
     
 
@@ -82,7 +105,7 @@ const PricesComponent = styled.div`
 const Header = styled.div`
     text-align: center;
     > h1 {
-      text-shadow: 5px 6px 2px #378ab4;
+      text-shadow: 5px 6px 2px #378ab47d;
 
         
 
@@ -95,7 +118,7 @@ const Body = styled.div`
     align-items: center;
     justify-items: center;
     text-align: center;
-    gap: 1.5em;
+    gap: 2em;
     margin-top: 3em;
 
     @media only screen and (max-width: 768px) {
@@ -112,8 +135,8 @@ const Div1 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  /* padding: 5em 3em; */
+  height: 600px;
   width: 400px;
 
 
@@ -144,8 +167,7 @@ const Div2 = styled.div`
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  height: 600px;
   width: 400px;
 
   > p {
@@ -174,8 +196,7 @@ const Div3 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  height: 600px;
   width: 400px;
 
   > p {
@@ -204,8 +225,7 @@ const Div4 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  height: 600px;
   width: 400px;
 
   > p {
@@ -234,8 +254,7 @@ const Div5 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  height: 600px;
   width: 400px;
 
   > p {
@@ -264,8 +283,7 @@ const Div6 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  height: 600px;
   width: 400px;
 
 
@@ -295,8 +313,7 @@ const Div7 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  padding: 5em 3em;
-  height: 400px;
+  height: 600px;
   width: 400px;
 
 
@@ -320,4 +337,12 @@ const Div7 = styled.div`
         font-weight: bold;
     }
   }
+`;
+
+const Pricesimg = styled.img`
+    height: 300px;
+    width: 300px;
+    border-radius: 1em;
+    margin-top: 3.5em;
+
 `;

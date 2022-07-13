@@ -30,28 +30,23 @@ export default function TheWay() {
                 </WayText1>
                 <WayText2>
                     <Image1 src={Wayimg2} alt="" />
-
                     <h3> الاجتماع مع أحد خبرائنا عبر اتصال زووم خلال الاجتماع يتم مناقشة الخبرة والاهداف المهنية المستقبلية لكتابة السيرة الذاتية </h3>
                 </WayText2>
                 <WayText3>
                     <Image1 src={Wayimg3} alt="" />
-
                     <h3>التواصل معنا على الواتساب لتحديد موعد فريق العمل جاهز لاستقبال رسائلكم ومساعدتكم في اختيار الخدمات</h3>
                 </WayText3>
                 <WayText4>
                     <Image1 src={Wayimg4} alt="" />
-
                     <h3>الحصول على سيرة ذاتية محترفة لتقديمها على وظائف مبروك أصبح لديك سيرة ذاتية تقدّمها على فرص العمل بكلّ ثقة</h3>
                 </WayText4>
                 <WayText5>
                     <Image1 src={Wayimg5} alt="" />
-
                     <h3>اضافة ملاحظاتك على السيرة الذاتية اعلامنا بأي اضافات أو تصليح أمر طبيعي قبل المنتج الأخير، نضيف الملاحظات بأسرع وقت ممكن</h3>
                 </WayText5>
             </WayText>
 
-            <WayContainer>
-            </WayContainer>
+            
         </TheWayComponent>
     
         
@@ -72,7 +67,7 @@ justify-content: center;
     > h1 {
         margin-top: 1em;
         margin-bottom: 2em;
-        text-shadow: 5px 6px 2px #378ab4;
+        text-shadow: 5px 6px 2px #378ab47d;
 
     }
 
@@ -86,10 +81,7 @@ margin-right: 5em; */
 `;
 
 
-const WayContainer = styled.div`
-    
 
-`;
 
 const BodyWay = styled.div`
     /* position: relative; */
@@ -255,17 +247,11 @@ const WayText5 = styled.div`
 `;
 
 const Image1 = styled.img`
-    height: 300px;
+    height: 250px;
     width: 300px;
     border-radius: 1em;
 `;
 
-// const Image2 = styled.img``;
 
-// const Image3 = styled.img``;
-
-// const Image4 = styled.img``;
-
-// const Image5 = styled.img``;
 
 
