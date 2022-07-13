@@ -340,7 +340,7 @@ const Div7 = styled.div`
 `;
 
 const Pricesimg = styled.img`
-    height: 300px;
+    height: 210px;
     width: 300px;
     border-radius: 1em;
     margin-top: 3.5em;

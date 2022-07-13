@@ -71,7 +71,7 @@ const Body = styled.div`
 `;
 
 const Commentsimgs = styled.img`
-    height: 270px;
+    height: 250px;
     width: 300px;
     border-radius: 1em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;

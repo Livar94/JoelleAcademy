@@ -247,7 +247,7 @@ const WayText5 = styled.div`
 `;
 
 const Image1 = styled.img`
-    height: 250px;
+    height: 210px;
     width: 300px;
     border-radius: 1em;
 `;
