@@ -44,6 +44,7 @@ const Header = styled.div`
     text-align: center;
     > h1 {
         margin-bottom: 2em;
+        text-shadow: 5px 6px 2px #378ab4;
     }
 `;
 
@@ -70,9 +71,9 @@ const Body = styled.div`
 `;
 
 const Commentsimgs = styled.img`
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 1em;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-
+    cursor: pointer;
 `;

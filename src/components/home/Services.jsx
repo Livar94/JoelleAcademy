@@ -39,11 +39,6 @@ export default function Services() {
             <p>(Experience) الخبرات</p>
             <p>وباقي الأجزاء باستخدام الكلمات المفتاح للظهور أكثر في البحوث وبالنالي الحصول على المزيد من المشاهدات للبروفايل وبناء علاقات مهنية أفضل</p>            
           </LinkedInProfile>
-
-
-
-
-
         </Body>
       </Header>
     </Servicescomponent>
@@ -68,6 +63,8 @@ const Title = styled.div`
   justify-content: center;
   margin-bottom: 1em;
   font-size: 1.25rem;
+  text-shadow: 5px 6px 2px #378ab4;
+
 `;
 
 const Body = styled.div`

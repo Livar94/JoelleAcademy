@@ -48,7 +48,7 @@ export default function Layout({ children }) {
           <MenuLink onClick={closeSidebar}>
             <Link to="/contact">Contact</Link>
           </MenuLink> */}
-          <a onClick={closeSidebar} className="menu-item" href="#">Home</a>
+          {/* <a onClick={closeSidebar} className="menu-item" href="#">Home</a> */}
           <a onClick={closeSidebar} className="menu-item" href="#services">Services</a>
           <a onClick={closeSidebar} className="menu-item" href="#about">About</a>
           <a onClick={closeSidebar} className="menu-item" href="#theway">The Way</a>

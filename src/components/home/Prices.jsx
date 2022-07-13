@@ -24,8 +24,9 @@ export default function Prices() {
                     <button>Contuct us</button>
                 </Div3>
                 <Div4>
-                    <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
-                    <p>100$</p>
+                    <h2>تحسين حسياب اللينكدن</h2>
+                    <h2>LinkedIn Profile Optimization</h2>
+                    <p>45$</p>
                     <button>Contuct us</button>
                 </Div4>
                 <Div5>
@@ -34,9 +35,8 @@ export default function Prices() {
                     <button>Contuct us</button>
                 </Div5>
                 <Div6>
-                    <h2>تحسين حسياب اللينكدن</h2>
-                    <h2>LinkedIn Profile Optimization</h2>
-                    <p>45$</p>
+                    <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
+                    <p>100$</p>
                     <button>Contuct us</button>
                 </Div6>
                 <Div7>
@@ -82,6 +82,8 @@ const PricesComponent = styled.div`
 const Header = styled.div`
     text-align: center;
     > h1 {
+      text-shadow: 5px 6px 2px #378ab4;
+
         
 
     }

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Logo from '../../assets/images/logojo.png'
-import Typewriter from 'typewriter-effect';
+// import Typewriter from 'typewriter-effect';
 import { IoIosMenu } from 'react-icons/io';
 import { useSidebar } from '../../context/useSidebar'
 
@@ -26,14 +26,16 @@ export default function Navbar() {
         </LogoContainer>
 
         <HeroContent>
-                <h1><Typewriter
+                {/* <h1><Typewriter
                   options={{
                     strings: ['احصل على وظيفة احلامك'],
                     autoStart: true,
                     loop: true
                   }}
-                /></h1>
-                          <h2>ثقة 300.000 متابع</h2>
+                /></h1> */}
+                <h1>احصل على وظيفة احلامك</h1>
+
+                <h2>ثقة 300.000 متابع</h2>
 
                 {/* <h2><Typewriter
                   options={{
@@ -82,13 +84,13 @@ const NavbarContent = styled.div`
     }
 `
 
-const NavbarLinks = styled.ul`
+// const NavbarLinks = styled.ul`
 
-`
+// `
 
-const NavbarLink = styled.a`
+// const NavbarLink = styled.a`
 
-`
+// `
 
 const LogoContainer = styled.a`
 display: block;
@@ -123,6 +125,8 @@ flex-direction: column;
 align-items: center;
   h1 {
     font-size: 3rem;
+    text-align: end;
+
   }
   h2 {
     font-size: 2rem;
