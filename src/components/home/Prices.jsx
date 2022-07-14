@@ -7,6 +7,8 @@ import Pricesimg4 from '../.././assets/images/Service4.png'
 import Pricesimg5 from '../.././assets/images/Service5.png'
 import Pricesimg6 from '../.././assets/images/Service6.png'
 import Pricesimg7 from '../.././assets/images/Service7.png'
+import ReactWhatsapp from 'react-whatsapp'
+
 
 
 export default function Prices() {
@@ -18,52 +20,68 @@ export default function Prices() {
                 <Div1>
                     <Pricesimg src={Pricesimg3} alt="" />
                     <h2>كتابة سيرة ذاتية 7 الى 11 سنة خبرة</h2>
-                    <p>85$</p>
-                    <button>Contact us</button>
+                    <p>( 85$ ) </p>
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
                 </Div1>
                 <Div2>
                 <Pricesimg src={Pricesimg2} alt="" />
 
                     <h2>كتابة سيرة ذاتية 3 الى 7 سنين خبرة</h2>
-                    <p>70$</p>
-                    <button>Contact us</button>
+                    <p>( 70$ )</p>
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
                 </Div2>
                 <Div3>
                 <Pricesimg src={Pricesimg1} alt="" />
 
                     <h2>كتابة سيرة ذاتية حديث التخرج الى 3 سنوات خبرة</h2>
-                    <p>50$</p>
+                    <p>( 50$ )</p>
                     
-                    <button>Contact us</button>
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
                 </Div3>
                 <Div4>
                 <Pricesimg src={Pricesimg6} alt="" />
 
                     <h2>تحسين حسياب اللينكدن</h2>
                     <h2>LinkedIn Profile Optimization</h2>
-                    <p>45$</p>
-                    <button>Contact us</button>
+                    <p>( 45$ )</p>
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
                 </Div4>
                 <Div5>
                 <Pricesimg src={Pricesimg5} alt="" />
 
                     <h2>كتابة سيرة ذاتية 15+ سنة خبرة</h2>
-                    <p>120$</p>
-                    <button>Contact us</button>
+                    <p>( 120$ )</p>
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
                 </Div5>
                 <Div6>
                 <Pricesimg src={Pricesimg4} alt="" />
 
                     <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
-                    <p>100$</p>
-                    <button>Contact us</button>
+                    <p>( 100$ )</p>
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
                 </Div6>
                 <Div7>
                 <Pricesimg src={Pricesimg7} alt="" />
 
                     <h2>Cover Letter كتابة</h2>
-                    <p>30$</p>
-                    <button>Contact us</button>
+                    <p>( 30$ )</p>
+                    
+                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                      Contact us
+                    </ReactWhatsapp>
+                    
                 </Div7>
 
 
@@ -136,13 +154,21 @@ const Div1 = styled.div`
   cursor: pointer;
   border-radius: 1em;
   /* padding: 5em 3em; */
-  height: 600px;
+  height: 500px;
   width: 400px;
 
 
     > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
   > button {
@@ -167,12 +193,20 @@ const Div2 = styled.div`
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   cursor: pointer;
   border-radius: 1em;
-  height: 600px;
+  height: 500px;
   width: 400px;
 
   > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
 
@@ -196,12 +230,20 @@ const Div3 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  height: 600px;
+  height: 500px;
   width: 400px;
 
   > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
 
@@ -225,12 +267,20 @@ const Div4 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  height: 600px;
+  height: 500px;
   width: 400px;
 
   > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
 
@@ -254,12 +304,20 @@ const Div5 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  height: 600px;
+  height: 500px;
   width: 400px;
 
   > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
 
@@ -283,13 +341,21 @@ const Div6 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  height: 600px;
+  height: 500px;
   width: 400px;
 
 
   > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
 
@@ -313,13 +379,22 @@ const Div7 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   cursor: pointer;
   border-radius: 1em;
-  height: 600px;
+  height: 500px;
   width: 400px;
+  
 
 
   > p {
         margin-top: 2em;
         font-weight: bold;
+        animation: beat .40s infinite alternate;
+        transform-origin: center;
+
+
+
+        @keyframes beat{
+        to { transform: scale(1.1); }
+      }
 
     }
 

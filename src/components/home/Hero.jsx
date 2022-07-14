@@ -4,7 +4,7 @@ import Navbar from '../layout/Navbar'
 import Pattern from '../../assets/images/whitebackground.png'
 import Friends from '../../assets/images/MicrosoftTeams-image.png'
 import Joelle from '../../assets/images/joelle.png'
-import Ticker from 'react-ticker'
+// import Ticker from 'react-ticker'
 
 export default function Hero() {
   return (
@@ -21,7 +21,7 @@ export default function Hero() {
               )}
           </Ticker> */}
 
-                <p>Phone: 0096181946089 | Business hours: &nbsp;&nbsp;•&nbsp;&nbsp; Monday – Friday: 10am – 7pm </p>
+                <p> <a href="tel:0096181946089">Phone: 0096181946089</a>   | Business hours: &nbsp;&nbsp;•&nbsp;&nbsp; Monday – Friday: 10am – 7pm </p>
 
       </div>
     </Top>
@@ -44,18 +44,18 @@ export default function Hero() {
 }
 
 const Top = styled.div`
+  > div > p > a {
+    text-decoration: none;
+  }
+
+
   background-color: #111;
-  /* padding: 0.25em 0; */
   width: 100%;
   color: white;
   .container {
     width: 100%;
   }
-/*   .container {
-/*     max-height: 30px; */
-/*     display: flex;
-    gap: .3em; */
- /*  } */
+
 
   .ticker {
     width: 100%;

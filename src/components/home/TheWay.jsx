@@ -25,28 +25,30 @@ export default function TheWay() {
             <WayText>
                 <WayText1>
                     <Image1 src={Wayimg1} alt="" />
-
+                    <h5> ( 3 )  </h5>
                     <h3>الحصول على السيرة الذاتية خلال 3 أيام عمل عند انتهاء الاجتماع يبدأ العمل على سيرتك الذاتية فوراً مع بحث شامل على ما يطلبه سوق العمل في مجالك</h3>
                 </WayText1>
                 <WayText2>
                     <Image1 src={Wayimg2} alt="" />
+                    <h5> ( 2 )  </h5>
                     <h3> الاجتماع مع أحد خبرائنا عبر اتصال زووم خلال الاجتماع يتم مناقشة الخبرة والاهداف المهنية المستقبلية لكتابة السيرة الذاتية </h3>
                 </WayText2>
                 <WayText3>
                     <Image1 src={Wayimg3} alt="" />
+                    <h5> ( 1 )  </h5>
                     <h3>التواصل معنا على الواتساب لتحديد موعد فريق العمل جاهز لاستقبال رسائلكم ومساعدتكم في اختيار الخدمات</h3>
                 </WayText3>
                 <WayText4>
                     <Image1 src={Wayimg4} alt="" />
+                    <h5> ( 5 )  </h5>
                     <h3>الحصول على سيرة ذاتية محترفة لتقديمها على وظائف مبروك أصبح لديك سيرة ذاتية تقدّمها على فرص العمل بكلّ ثقة</h3>
                 </WayText4>
                 <WayText5>
                     <Image1 src={Wayimg5} alt="" />
+                    <h5> ( 4 )  </h5>
                     <h3>اضافة ملاحظاتك على السيرة الذاتية اعلامنا بأي اضافات أو تصليح أمر طبيعي قبل المنتج الأخير، نضيف الملاحظات بأسرع وقت ممكن</h3>
                 </WayText5>
-            </WayText>
-
-            
+            </WayText>        
         </TheWayComponent>
     
         
@@ -56,14 +58,14 @@ export default function TheWay() {
 
 const TheWayComponent = styled.div`
 
-margin-top: 60vh;
-display: grid;
-grid-template-columns: 1fr;
-justify-items: center;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-padding:  3em;
-margin-bottom: 4em;
-justify-content: center;
+    margin-top: 60vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:  3em;
+    margin-bottom: 4em;
+    justify-content: center;
     > h1 {
         margin-top: 1em;
         margin-bottom: 2em;
@@ -71,19 +73,18 @@ justify-content: center;
 
     }
 
-/* margin-left: 5em;
-margin-right: 5em; */
 
-@media only screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-    gap: 2em;
-    }
+
+    @media only screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+        gap: 2em;
+        }
 `;
 
 
 
 
-const BodyWay = styled.div`
+// const BodyWay = styled.div`
     /* position: relative; */
     /* width: 360px;
     height: 300px; */
@@ -128,7 +129,7 @@ img:nth-child(1) {
   opacity: 0.4;
 }
     }*/
-`; 
+// `; 
 
 
 
@@ -248,6 +249,9 @@ const WayText5 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    
+    
+    
 `;
 
 const Image1 = styled.img`
