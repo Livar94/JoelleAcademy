@@ -15,12 +15,12 @@ export default function TheWay() {
         <TheWayComponent className='container' id='theway'>
             <h1>الطريقة</h1>
 
-            <BodyWay>
-                    {/* <img src={WayImage} alt='' />
+            {/* <BodyWay>
                     <img src={WayImage} alt='' />
                     <img src={WayImage} alt='' />
-                    <img src={WayImage} alt='' /> */}
-            </BodyWay>
+                    <img src={WayImage} alt='' />
+                    <img src={WayImage} alt='' />
+            </BodyWay> */}
 
             <WayText>
                 <WayText1>
@@ -58,7 +58,7 @@ const TheWayComponent = styled.div`
 
 margin-top: 60vh;
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr;
 justify-items: center;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 padding:  3em;
@@ -179,6 +179,10 @@ const WayText = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 2em;
+/*     justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center; */
     @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     gap: 2em;

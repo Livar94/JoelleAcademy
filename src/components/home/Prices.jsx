@@ -19,14 +19,14 @@ export default function Prices() {
                     <Pricesimg src={Pricesimg3} alt="" />
                     <h2>كتابة سيرة ذاتية 7 الى 11 سنة خبرة</h2>
                     <p>85$</p>
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div1>
                 <Div2>
                 <Pricesimg src={Pricesimg2} alt="" />
 
                     <h2>كتابة سيرة ذاتية 3 الى 7 سنين خبرة</h2>
                     <p>70$</p>
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div2>
                 <Div3>
                 <Pricesimg src={Pricesimg1} alt="" />
@@ -34,7 +34,7 @@ export default function Prices() {
                     <h2>كتابة سيرة ذاتية حديث التخرج الى 3 سنوات خبرة</h2>
                     <p>50$</p>
                     
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div3>
                 <Div4>
                 <Pricesimg src={Pricesimg6} alt="" />
@@ -42,28 +42,28 @@ export default function Prices() {
                     <h2>تحسين حسياب اللينكدن</h2>
                     <h2>LinkedIn Profile Optimization</h2>
                     <p>45$</p>
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div4>
                 <Div5>
                 <Pricesimg src={Pricesimg5} alt="" />
 
                     <h2>كتابة سيرة ذاتية 15+ سنة خبرة</h2>
                     <p>120$</p>
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div5>
                 <Div6>
                 <Pricesimg src={Pricesimg4} alt="" />
 
                     <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
                     <p>100$</p>
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div6>
                 <Div7>
                 <Pricesimg src={Pricesimg7} alt="" />
 
                     <h2>Cover Letter كتابة</h2>
                     <p>30$</p>
-                    <button>Contuct us</button>
+                    <button>Contact us</button>
                 </Div7>
 
 

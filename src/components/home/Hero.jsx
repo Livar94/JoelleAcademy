@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from '../layout/Navbar'
-import Pattern from '../../assets/images/crissxcross.png'
-import Friends from '../../assets/images/friends.png'
+import Pattern from '../../assets/images/whitebackground.png'
+import Friends from '../../assets/images/MicrosoftTeams-image.png'
 import Joelle from '../../assets/images/joelle.png'
 import Ticker from 'react-ticker'
 
@@ -20,13 +20,9 @@ export default function Hero() {
                   </>
               )}
           </Ticker> */}
-          <Ticker mode='smooth'>
-        {({ index }) => (
-            <>
+
                 <p>Phone: 0096181946089 | Business hours: &nbsp;&nbsp;•&nbsp;&nbsp; Monday – Friday: 10am – 7pm </p>
-            </>
-        )}
-    </Ticker>
+
       </div>
     </Top>
     <HeroContainer>
@@ -80,7 +76,6 @@ const HeroContainer = styled.div`
   /* padding-bottom: 20em; */
   background-color: white;
   background-image: url(${Pattern});
-  
   background-position: center;
   max-width: 100vw;
   overflow: hidden;

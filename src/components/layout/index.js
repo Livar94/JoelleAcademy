@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import { stack as Menu } from 'react-burger-menu'
 import { IoIosClose } from 'react-icons/io';
 import WhatsappIcon from '../../assets/images/whatsapp-icon-vector.png'
+import ReactWhatsapp from 'react-whatsapp'
 
 export default function Layout({ children }) {
   const { isOpen, setIsOpen } = useSidebar();
@@ -56,8 +57,11 @@ export default function Layout({ children }) {
         </Menu>
       </MenuContainer> : ""}
     <LayoutContainer>
-        <Whatsapp href="https://web.whatsapp.com/send?phone=96181946089&text=Hello%2C%20can%20I%20have%20more%20information%20about%20your%20service%3F">
+    
+        <Whatsapp>
+          <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
           <img src={WhatsappIcon} alt="" />
+          </ReactWhatsapp>
         </Whatsapp>
         {children}
       <Footer />
@@ -88,6 +92,10 @@ const MenuContainer = styled.div`
 `
 
 const Whatsapp = styled.a`
+button {
+  all: unset;
+  cursor: pointer;
+}
 position: fixed;
 right: 10px;
 bottom: 0;

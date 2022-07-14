@@ -37,6 +37,7 @@ export default function Footer() {
 
           </Div3>
 
+          <p>created by HolmWeb</p>
         </Body>
 
       </Header>
@@ -56,7 +57,7 @@ const Header = styled.div``;
 const Body = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-
+  gap: 1rem;
   @media only screen and (max-width: 768px) {
       grid-template-columns: 1fr;
       
