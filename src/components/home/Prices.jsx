@@ -13,7 +13,7 @@ import ReactWhatsapp from 'react-whatsapp'
 
 export default function Prices() {
   return (
-    <PricesComponent className='container'>
+    <PricesComponent className='container' id='prices'>
         <Header>
             <h1>الأسعار</h1>
             <Body>
@@ -21,7 +21,7 @@ export default function Prices() {
                     <Pricesimg src={Pricesimg3} alt="" />
                     <h2>كتابة سيرة ذاتية 7 الى 11 سنة خبرة</h2>
                     <p>( 85$ ) </p>
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                 </Div1>
@@ -30,7 +30,7 @@ export default function Prices() {
 
                     <h2>كتابة سيرة ذاتية 3 الى 7 سنين خبرة</h2>
                     <p>( 70$ )</p>
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                 </Div2>
@@ -40,7 +40,7 @@ export default function Prices() {
                     <h2>كتابة سيرة ذاتية حديث التخرج الى 3 سنوات خبرة</h2>
                     <p>( 50$ )</p>
                     
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                 </Div3>
@@ -50,7 +50,7 @@ export default function Prices() {
                     <h2>تحسين حسياب اللينكدن</h2>
                     <h2>LinkedIn Profile Optimization</h2>
                     <p>( 45$ )</p>
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                 </Div4>
@@ -59,7 +59,7 @@ export default function Prices() {
 
                     <h2>كتابة سيرة ذاتية 15+ سنة خبرة</h2>
                     <p>( 120$ )</p>
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                 </Div5>
@@ -68,7 +68,7 @@ export default function Prices() {
 
                     <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
                     <p>( 100$ )</p>
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                 </Div6>
@@ -78,7 +78,7 @@ export default function Prices() {
                     <h2>Cover Letter كتابة</h2>
                     <p>( 30$ )</p>
                     
-                    <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+                    <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
                     

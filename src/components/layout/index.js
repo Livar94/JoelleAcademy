@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import Footer from './Footer'
 import { useSidebar } from '../../context/useSidebar'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import { stack as Menu } from 'react-burger-menu'
 import { IoIosClose } from 'react-icons/io';
 import WhatsappIcon from '../../assets/images/whatsapp-icon-vector.png'
@@ -20,6 +20,7 @@ export default function Layout({ children }) {
             background: '#339FD0',
             padding: '2.5em 1.5em 0',
             fontSize: '1.15em',
+           
             
           },
           bmMorphShape: {
@@ -31,7 +32,8 @@ export default function Layout({ children }) {
           },
           bmItem: {
             display: 'block',
-            color: '#f1f1f1'
+            color: '#f1f1f1',
+            textDecoration: 'none',            
           },
         }}>
           <MenuBtn className='crossbtn' onClick={() => setIsOpen(prev => !prev)} ><IoIosClose /></MenuBtn>
@@ -50,10 +52,11 @@ export default function Layout({ children }) {
             <Link to="/contact">Contact</Link>
           </MenuLink> */}
           {/* <a onClick={closeSidebar} className="menu-item" href="#">Home</a> */}
-          <a onClick={closeSidebar} className="menu-item" href="#services">Services</a>
-          <a onClick={closeSidebar} className="menu-item" href="#about">About</a>
-          <a onClick={closeSidebar} className="menu-item" href="#theway">The Way</a>
-          
+          <a onClick={closeSidebar} className="menu-item" href="#services">الخدمات</a>
+          <a onClick={closeSidebar} className="menu-item" href="#about">من نحن؟</a>
+          <a onClick={closeSidebar} className="menu-item" href="#theway">الطريقة</a>
+          <a onClick={closeSidebar} className="menu-item" href="#prices">الأسعار</a>
+          <a onClick={closeSidebar} className="menu-item" href="#comments">آراء عملائنا</a>          
         </Menu>
       </MenuContainer> : ""}
     <LayoutContainer>
@@ -112,16 +115,16 @@ img {
 }
 }
 `
-const MenuLink = styled.div`
-  a {
-    text-decoration: none;
-    color: white;
-    background-color: #111;
-    padding: 0.75em 2em;
-    display: block;
-    margin: 1em 0;
-    border-radius: 1em;
-    display: flex;
-    justify-content: center;
-  }
-`
+// const MenuLink = styled.div`
+//   a {
+//     text-decoration: none;
+//     color: white;
+//     background-color: #111;
+//     padding: 0.75em 2em;
+//     display: block;
+//     margin: 1em 0;
+//     border-radius: 1em;
+//     display: flex;
+//     justify-content: center;
+//   }
+// `

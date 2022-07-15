@@ -14,7 +14,7 @@ import Image11 from '../.././assets/images/WhatsApp Image 2022-07-12 at 06.36.34
 
 export default function Comments() {
   return (
-    <CommentsComponent className='container'>
+    <CommentsComponent className='container' id='comments'>
         <Header>
             <h1>آراء عملائنا</h1>
             <Body>
