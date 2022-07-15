@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Zaldo from '../.././assets/videos/pexels-jack-sparrow-5977260 (1).mp4'
+import Zaldo from '../.././assets/videos/pexels-jack-sparrow-5977260.mp4'
 
 
 export default function About() {
