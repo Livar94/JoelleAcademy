@@ -59,7 +59,7 @@ export default function Layout({ children }) {
     <LayoutContainer>
     
         <Whatsapp>
-          <ReactWhatsapp number="0096181946089" message="Hello, can I have more information about your service?">
+          <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
           <img src={WhatsappIcon} alt="" />
           </ReactWhatsapp>
         </Whatsapp>

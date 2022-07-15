@@ -216,7 +216,9 @@ const WayText1 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
-
+    @media only screen and (max-width: 768px) {
+        order: 3;
+    }
 `;
 
 const WayText2 = styled.div`  
@@ -225,6 +227,9 @@ const WayText2 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 768px) {
+        order: 2;
+    }
 `;
 
 const WayText3 = styled.div`
@@ -233,6 +238,9 @@ const WayText3 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 768px) {
+        order: 1;
+    }
 `;
 
 const WayText4 = styled.div`
@@ -241,6 +249,9 @@ const WayText4 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 768px) {
+        order: 5;
+    }
 `;
 
 const WayText5 = styled.div`
@@ -250,7 +261,9 @@ const WayText5 = styled.div`
     text-align: center;
     border-radius: 1em;
     
-    
+    @media only screen and (max-width: 768px) {
+        order: 4;
+    }
     
 `;
 

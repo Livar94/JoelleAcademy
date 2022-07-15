@@ -133,6 +133,7 @@ align-items: center;
   }
   @media only screen and (max-width: 768px) {
     padding: 2em 0;
+    display: none;
   }
 `
 
