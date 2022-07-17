@@ -34,9 +34,7 @@ export default function Navbar() {
                   }}
                 /></h1> */}
                 <h1>احصل على وظيفة احلامك</h1>
-
                 <h2>ثقة 300.000 متابع</h2>
-
                 {/* <h2><Typewriter
                   options={{
                     strings: ['ثقة 300.000 متابع'],
@@ -126,10 +124,14 @@ align-items: center;
   h1 {
     font-size: 3rem;
     text-align: end;
+    text-shadow: 5px 6px 2px #378ab47d;
+
 
   }
   h2 {
     font-size: 2rem;
+    text-shadow: 5px 6px 2px #378ab47d;
+
   }
   @media only screen and (max-width: 768px) {
     padding: 2em 0;
