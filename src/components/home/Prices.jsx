@@ -151,11 +151,14 @@ const Body = styled.div`
 
 const Div1 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  cursor: pointer;
-  border-radius: 1em;
-  /* padding: 5em 3em; */
-  height: 500px;
-  width: 400px;
+    cursor: pointer;
+    border-radius: 1em;
+    /* padding: 5em 3em; */
+    height: 500px;
+    width: 400px;
+    @media only screen and (max-width: 768px) {
+          order: 3;
+      }
 
 
     > p {
@@ -195,6 +198,9 @@ const Div2 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 768px) {
+        order: 2;
+    }
 
   > p {
         margin-top: 2em;
@@ -232,6 +238,9 @@ const Div3 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 768px) {
+        order: 1;
+    }
 
   > p {
         margin-top: 2em;
@@ -269,6 +278,9 @@ const Div4 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 768px) {
+        order: 6;
+    }
 
   > p {
         margin-top: 2em;
@@ -306,6 +318,9 @@ const Div5 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 768px) {
+        order: 5;
+    }
 
   > p {
         margin-top: 2em;
@@ -343,6 +358,9 @@ const Div6 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 768px) {
+        order: 4;
+    }
 
 
   > p {
@@ -381,6 +399,9 @@ const Div7 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 768px) {
+        order: 7;
+    }
   
 
 
