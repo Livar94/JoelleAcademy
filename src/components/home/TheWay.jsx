@@ -6,12 +6,14 @@ import Wayimg2 from '../.././assets/images/Step2.png'
 import Wayimg3 from '../.././assets/images/Step3.png'
 import Wayimg4 from '../.././assets/images/Step4.png'
 import Wayimg5 from '../.././assets/images/Step5.png'
+import PatternImg from '../.././assets/images/75-755867_vector-dots-pop-art-pop-art-pattern-png.png'
 
 
 
 export default function TheWay() {
   return (
-
+<TheWayCont>
+<Pattern src={PatternImg} />
         <TheWayComponent className='container' id='theway'>
             <h1>الطريقة</h1>
 
@@ -51,13 +53,32 @@ export default function TheWay() {
             </WayText>        
         </TheWayComponent>
     
-        
+        </TheWayCont>
   )
 }
 
+const Pattern = styled.img`
+height: 600px;
+aspect-ratio: 1/1;
+position: absolute;
+left: 5rem;
+top: -10rem;
+z-index: -1;
+opacity: 0.1;
+@media only screen and (max-width: 768px) {
+    left: 0;
+top: -12rem;
+        }
+`;
+const TheWayCont = styled.div`
+position: relative;
+
+`;
+
 
 const TheWayComponent = styled.div`
-
+    background-color: white;
+    z-index: 99;
     margin-top: 60vh;
     display: grid;
     grid-template-columns: 1fr;

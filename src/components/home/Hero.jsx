@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Navbar from '../layout/Navbar'
-import Pattern from '../../assets/images/whitebackground.png'
+import Pattern from '../../assets/images/white-elegant-texture-background_23-2148445781.webp'
 import Friends from '../../assets/images/MicrosoftTeams-image.png'
 import Joelle from '../../assets/images/joelle.png'
 // import Ticker from 'react-ticker'
@@ -76,7 +76,9 @@ const HeroContainer = styled.div`
   /* padding-bottom: 20em; */
   background-color: white;
   background-image: url(${Pattern});
-  background-position: center;
+  background-position: top;
+  background-size: cover;
+  
   max-width: 100vw;
   overflow: hidden;
 
