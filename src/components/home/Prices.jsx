@@ -47,7 +47,7 @@ export default function Prices() {
                 <Div4>
                 <Pricesimg src={Pricesimg6} alt="" />
 
-                    <h2>تحسين حسياب اللينكدن</h2>
+                    <h2>تحسين حساب اللينكدن</h2>
                     <h2>LinkedIn Profile Optimization</h2>
                     <p>( 45$ )</p>
                     <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
