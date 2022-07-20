@@ -67,7 +67,7 @@ const Header = styled.div`
     text-align: center;
     > h1 {
         margin-bottom: 2em;
-        text-shadow: 5px 6px 2px #378ab47d;
+        /* text-shadow: 5px 6px 2px #378ab47d; */
     }
 `;
 

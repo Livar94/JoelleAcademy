@@ -90,7 +90,7 @@ const TheWayComponent = styled.div`
     > h1 {
         margin-top: 1em;
         margin-bottom: 2em;
-        text-shadow: 5px 6px 2px #378ab47d;
+        /* text-shadow: 5px 6px 2px #378ab47d; */
 
     }
 
