@@ -124,13 +124,11 @@ align-items: center;
   h1 {
     font-size: 3rem;
     text-align: end;
-    text-shadow: 5px 6px 2px #378ab47d;
 
 
   }
   h2 {
     font-size: 2rem;
-    text-shadow: 5px 6px 2px #378ab47d;
 
   }
   @media only screen and (max-width: 768px) {

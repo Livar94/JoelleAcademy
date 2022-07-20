@@ -5,6 +5,7 @@ import Pattern from '../../assets/images/white-elegant-texture-background_23-214
 import Friends from '../../assets/images/MicrosoftTeams-image.png'
 import Joelle from '../../assets/images/joelle.png'
 // import Ticker from 'react-ticker'
+import ReactWhatsapp from 'react-whatsapp'
 
 export default function Hero() {
   return (
@@ -20,9 +21,12 @@ export default function Hero() {
                   </>
               )}
           </Ticker> */}
+              <Whatsapp>
+                <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
+                  <p>Phone: 0096181946089 - تواصلو معنا الان على الواتساب</p>
 
-                <p> <a href="tel:0096181946089">Phone: 0096181946089</a>   | Business hours: &nbsp;&nbsp;•&nbsp;&nbsp; Monday – Friday: 10am – 7pm </p>
-
+                </ReactWhatsapp>
+              </Whatsapp>
       </div>
     </Top>
     <HeroContainer>
@@ -42,6 +46,14 @@ export default function Hero() {
     </>
   )
 }
+
+const Whatsapp = styled.div`
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+`
 
 const Top = styled.div`
   > div > p > a {
@@ -88,7 +100,7 @@ const HeroContainer = styled.div`
     justify-content: center;
     align-items: flex-end;
     #friends {
-      max-width: 700px;
+      max-width: 900px;
       height: auto;
       object-fit: contain;
     }
@@ -103,7 +115,7 @@ const HeroContainer = styled.div`
     background-position: bottom;
     .banner {
     #friends {
-      max-width: 250px;
+      max-width: 300px;
     }
 
     #joelle {
