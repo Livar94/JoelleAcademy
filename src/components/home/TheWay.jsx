@@ -65,6 +65,7 @@ left: 5rem;
 top: -10rem;
 z-index: -1;
 opacity: 0.1;
+
 @media only screen and (max-width: 768px) {
     left: 0;
 top: -12rem;
@@ -72,6 +73,7 @@ top: -12rem;
 `;
 const TheWayCont = styled.div`
 position: relative;
+
 
 `;
 
@@ -87,12 +89,14 @@ const TheWayComponent = styled.div`
     padding:  3em;
     margin-bottom: 4em;
     justify-content: center;
+    
     > h1 {
         margin-top: 1em;
         margin-bottom: 2em;
         /* text-shadow: 5px 6px 2px #378ab47d; */
 
     }
+    
 
 
 
@@ -205,6 +209,10 @@ const WayText = styled.div`
     justify-items: center;
     align-items: center;
     align-content: center; */
+    @media only screen and (max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+
+    }
     @media only screen and (max-width: 768px) {
     grid-template-columns: 1fr;
     gap: 2em;
@@ -237,6 +245,10 @@ const WayText1 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 1024px) {
+      order: 4;
+
+    }
     @media only screen and (max-width: 768px) {
         order: 3;
     }
@@ -248,6 +260,10 @@ const WayText2 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 1024px) {
+        order: 1;
+
+    }
     @media only screen and (max-width: 768px) {
         order: 2;
     }
@@ -259,6 +275,10 @@ const WayText3 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 1024px) {
+     order : 2;
+
+    }
     @media only screen and (max-width: 768px) {
         order: 1;
     }
@@ -270,6 +290,10 @@ const WayText4 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 1024px) {
+        order: 5;
+
+    }
     @media only screen and (max-width: 768px) {
         order: 5;
     }
@@ -281,6 +305,10 @@ const WayText5 = styled.div`
     cursor: pointer;
     text-align: center;
     border-radius: 1em;
+    @media only screen and (max-width: 1024px) {
+        order: 3;
+
+    }
     
     @media only screen and (max-width: 768px) {
         order: 4;

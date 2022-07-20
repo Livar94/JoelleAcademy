@@ -80,6 +80,10 @@ const Body = styled.div`
     justify-items: center;
     text-align: center;
     margin-bottom: 3em;
+    @media only screen and (max-width: 1024px) {
+      grid-template-columns: 1fr 1fr;
+
+    }
 
 
     @media only screen and (max-width: 768px) {
