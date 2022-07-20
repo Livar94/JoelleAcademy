@@ -163,6 +163,10 @@ const Div1 = styled.div`
     /* padding: 5em 3em; */
     height: 500px;
     width: 400px;
+    @media only screen and (max-width: 1024px) {
+      order: 4;
+
+    }
     @media only screen and (max-width: 768px) {
           order: 3;
       }
@@ -205,6 +209,10 @@ const Div2 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 1024px) {
+      order: 1;
+
+    }
   @media only screen and (max-width: 768px) {
         order: 2;
     }
@@ -245,6 +253,10 @@ const Div3 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 1024px) {
+     order : 2;
+
+    }
   @media only screen and (max-width: 768px) {
         order: 1;
     }
@@ -285,6 +297,10 @@ const Div4 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 1024px) {
+     order : 5;
+
+    }
   @media only screen and (max-width: 768px) {
         order: 6;
     }
@@ -325,6 +341,10 @@ const Div5 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 1024px) {
+     order : 6;
+
+    }
   @media only screen and (max-width: 768px) {
         order: 5;
     }
@@ -365,6 +385,10 @@ const Div6 = styled.div`
   border-radius: 1em;
   height: 500px;
   width: 400px;
+  @media only screen and (max-width: 1024px) {
+     order : 3;
+
+    }
   @media only screen and (max-width: 768px) {
         order: 4;
     }
@@ -402,13 +426,17 @@ const Div6 = styled.div`
 
 const Div7 = styled.div`
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  cursor: pointer;
-  border-radius: 1em;
-  height: 500px;
-  width: 400px;
-  @media only screen and (max-width: 768px) {
-        order: 7;
+    cursor: pointer;
+    border-radius: 1em;
+    height: 500px;
+    width: 400px;
+    @media only screen and (max-width: 1024px) {
+     order : 7;
+
     }
+    @media only screen and (max-width: 768px) {
+          order: 7;
+      }
   
 
 
