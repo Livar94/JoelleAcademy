@@ -6,7 +6,7 @@ import LinkedIn from '../.././assets/images/LINKEDIN.png'
 
 export default function Services() {
   return (
-    <Servicescomponent id='services'>
+    <Servicescomponent className='container' id='services'>
       <Header>
         <Title>
           <h1>الخدمات</h1>
@@ -41,9 +41,9 @@ export default function Services() {
 
 const Servicescomponent = styled.div`
 display: flex;
-justify-content: center;
+/* justify-content: center; */
 box-shadow: rgba(0, 0, 0, 0.147) 0px 3px 8px;
-margin: 2em;
+margin-top: 5em;
 padding: 5em 3em;
 padding-top: 4em;
 `;
