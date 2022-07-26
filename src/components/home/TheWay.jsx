@@ -25,27 +25,27 @@ export default function TheWay() {
             </BodyWay> */}
 
             <WayText>
-                <WayText1>
+                <WayText1 data-aos="fade-right" data-aos-duration="1500">
                     <Image1 src={Wayimg4} alt="" />
                     <h5> ( 3 )  </h5>
                     <h3>الحصول على السيرة الذاتية خلال 3 أيام عمل عند انتهاء الاجتماع يبدأ العمل على سيرتك الذاتية فوراً مع بحث شامل على ما يطلبه سوق العمل في مجالك</h3>
                 </WayText1>
-                <WayText2>
+                <WayText2 data-aos="fade-down" data-aos-duration="1500">
                     <Image1 src={Wayimg2} alt="" />
                     <h5> ( 2 )  </h5>
                     <h3> الاجتماع مع أحد خبرائنا عبر اتصال زووم خلال الاجتماع يتم مناقشة الخبرة والاهداف المهنية المستقبلية لكتابة السيرة الذاتية </h3>
                 </WayText2>
-                <WayText3>
+                <WayText3 data-aos="fade-left" data-aos-duration="1500">
                     <Image1 src={Wayimg1} alt="" />
                     <h5> ( 1 )  </h5>
                     <h3>التواصل معنا على الواتساب لتحديد موعد فريق العمل جاهز لاستقبال رسائلكم ومساعدتكم في اختيار الخدمات</h3>
                 </WayText3>
-                <WayText4>
+                <WayText4 data-aos="fade-up" data-aos-duration="1500">
                     <Image1 src={Wayimg5} alt="" />
                     <h5> ( 5 )  </h5>
                     <h3>الحصول على سيرة ذاتية محترفة لتقديمها على وظائف مبروك أصبح لديك سيرة ذاتية تقدّمها على فرص العمل بكلّ ثقة</h3>
                 </WayText4>
-                <WayText5>
+                <WayText5 data-aos="fade-up" data-aos-duration="1500">
                     <Image1 src={Wayimg3} alt="" />
                     <h5> ( 4 )  </h5>
                     <h3>اضافة ملاحظاتك على السيرة الذاتية اعلامنا بأي اضافات أو تصليح أمر طبيعي قبل المنتج الأخير، نضيف الملاحظات بأسرع وقت ممكن</h3>

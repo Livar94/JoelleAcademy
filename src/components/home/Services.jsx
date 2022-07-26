@@ -12,13 +12,13 @@ export default function Services() {
           <h1>الخدمات</h1>
         </Title>
         <Body>
-          <ProfessionalCV>
+          <ProfessionalCV data-aos="fade-right" data-aos-duration="2000">
           <ServicesImages src={CvWriting} alt='' className='fa-solid fa-heart fa-beat' />
             <h2>ATS Friendly Proffessional CV سيرة ذاتية محترفة</h2>
             <p>كتابة سيرة ذاتية باستخدام المعايير العالميّة مع محتوى محترف لاظهار قيمتك المضافة ومهاراتك. استخدام نموذج صالح للقراءة والمسح من قبل برنامج فلترة الطلبات دون أي عائق لضمان مقابلات أكثر</p>
           </ProfessionalCV>
 
-          <CoverLetter>
+          <CoverLetter data-aos="fade-down" data-aos-duration="2000">
             <ServicesImages src={CoverLetterImg} alt='' />
 
             <h2>Cover Letter</h2>
@@ -28,7 +28,7 @@ export default function Services() {
 
           </CoverLetter>
 
-          <LinkedInProfile>
+          <LinkedInProfile data-aos="fade-left" data-aos-duration="2000">
           <ServicesImages src={LinkedIn} alt='' />
             <h2>LinkedIn Profile Optimization</h2>
             <p>نحوّل حسابك في اللنكدن الى حساب محترف من صورة الغلاف، الصورة الشخصية، العنوان، النبذة الذاتية ، الخبرات وباقي الأجزاء باستخدام الكلمات المفتاح للظهور أكثر في البحوث وبالنالي الحصول على المزيد من المشاهدات للبروفايل وبناء علاقات مهنية أفضل</p>            

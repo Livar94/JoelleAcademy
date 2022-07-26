@@ -32,8 +32,8 @@ export default function Hero() {
     <HeroContainer>
       <Navbar />
       <div className="banner">
-        <img id='friends' src={Friends} alt="" />
-        <img id='joelle' src={Joelle} alt="" />
+        <img id='friends' src={Friends} alt="" data-aos="fade-right" data-aos-duration="2000"/>
+        <img id='joelle' src={Joelle} alt="" data-aos="fade-left" data-aos-duration="2000"/>
       </div>
     </HeroContainer>
 {/*     <HeroContainer>
