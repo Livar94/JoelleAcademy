@@ -99,6 +99,7 @@ button {
   all: unset;
   cursor: pointer;
 }
+z-index: 9999;
 position: fixed;
 right: 10px;
 bottom: 0;

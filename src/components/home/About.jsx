@@ -29,7 +29,7 @@ export default function About() {
 }
 
 const Aboutcomponent = styled.div`
-  
+  position: relative;
   @keyframes bounce {
         0%, 100% {
             transform: translateY(-25%);
@@ -41,13 +41,19 @@ const Aboutcomponent = styled.div`
         }
         }
 
-
+        @media only screen and (max-width: 768px) {
+      padding: 2em 0;
+    }
 `;
 
 const Video = styled.video`
     z-index: -1;
     position: absolute;
     height: 70vh;
+    
+    @media only screen and (max-width: 768px) {
+      height: 100%;
+    }
     width: 100vw;
     object-fit: cover;
     object-position: top;
@@ -55,7 +61,8 @@ const Video = styled.video`
 `;
 
 const Aboutcontainer = styled.div`
- 
+  /* max-height: 70vh;
+  overflow: hidden; */
 `;
 
 const Header = styled.div`
