@@ -20,7 +20,7 @@ export default function Prices() {
                 <Div1>
                     <Pricesimg src={Pricesimg3} alt="" />
                     <h2>كتابة سيرة ذاتية 7 الى 11 سنة خبرة</h2>
-                    <p>( 85$ ) </p>
+                    <p>( 90$ ) </p>
                     <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
@@ -29,7 +29,7 @@ export default function Prices() {
                 <Pricesimg src={Pricesimg2} alt="" />
 
                     <h2>كتابة سيرة ذاتية 3 الى 7 سنين خبرة</h2>
-                    <p>( 70$ )</p>
+                    <p>( 75$ )</p>
                     <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
@@ -58,7 +58,7 @@ export default function Prices() {
                 <Pricesimg src={Pricesimg5} alt="" />
 
                     <h2>كتابة سيرة ذاتية 15+ سنة خبرة</h2>
-                    <p>( 120$ )</p>
+                    <p>( 140$ )</p>
                     <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
@@ -67,7 +67,7 @@ export default function Prices() {
                 <Pricesimg src={Pricesimg4} alt="" />
 
                     <h2>كتابة سيرة ذاتية 11 الى 15 سنة خبرة</h2>
-                    <p>( 100$ )</p>
+                    <p>( 110$ )</p>
                     <ReactWhatsapp number="96181946089" message="Hello, can I have more information about your service?">
                       Contact us
                     </ReactWhatsapp>
