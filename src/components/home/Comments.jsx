@@ -22,6 +22,14 @@ import Image19 from '../../././assets/images/WhatsApp Image 2022-07-19 at 06.49.
 import Image20 from '../../././assets/images/WhatsApp Image 2022-07-19 at 06.49.47 (20).jpeg'
 import Image21 from '../../././assets/images/WhatsApp Image 2022-07-19 at 06.52.56 (21).jpeg'
 import Image22 from '../../././assets/images/WhatsApp Image 2022-07-19 at 06.52.56 (22).jpeg'
+import Image23 from "../.././assets/images/comments/img1.jpg"
+import Image24 from "../.././assets/images/comments/img2.jpg"
+import Image25 from "../.././assets/images/comments/img3.jpg"
+import Image26 from "../.././assets/images/comments/img4.jpg"
+import Image27 from "../.././assets/images/comments/img5.jpg"
+import Image28 from "../.././assets/images/comments/img6.jpg"
+import Image29 from "../.././assets/images/comments/img7.jpg"
+import Image30 from "../.././assets/images/comments/img8.jpg"
 
 
 export default function Comments() {
@@ -52,6 +60,14 @@ export default function Comments() {
                 <Commentsimgs src={Image20} alt='' />
                 <Commentsimgs src={Image21} alt='' />
                 <Commentsimgs src={Image22} alt='' />
+                <Commentsimgs src={Image23} alt='' />
+                <Commentsimgs src={Image24} alt='' />
+                <Commentsimgs src={Image25} alt='' />
+                <Commentsimgs src={Image26} alt='' />
+                <Commentsimgs src={Image27} alt='' />
+                <Commentsimgs src={Image28} alt='' />
+                <Commentsimgs src={Image29} alt='' />
+                <Commentsimgs src={Image30} alt='' />
                     
 
             </Body>
